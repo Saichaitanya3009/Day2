@@ -6,7 +6,7 @@ console.log(str1 , typeof(str1));
 let str2  = 'Sai';
 console.log(str2 , typeof(str2));
 
-let str3 = `chaitanay`;
+let str3 = chaitanay;
 console.log(str3 , typeof(str3));
 
 //Boolean
@@ -35,6 +35,3 @@ console.log(a , typeof(a));
 
 let x = null;
 console.log(x , typeof(x));
-
-
-
