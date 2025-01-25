@@ -61,3 +61,13 @@
 // function resetColor(buttonId, originalColor) {
 //     document.getElementById(buttonId).style.backgroundColor = originalColor;
 // }
+//Task Original Solution
+let bgColor = document.querySelectorAll(".bgColor");
+[...bgColor].map(element=>{
+    element.addEventListener("mouseover",()=>{
+        element.style.background = element.innerText;
+    });
+    element.addEventListener("mouseleave",()=>{
+        element.style.backgroundColor = "transparent";
+    })
+})
