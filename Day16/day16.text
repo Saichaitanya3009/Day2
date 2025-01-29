@@ -1,0 +1,3 @@
+Q:-Take array of objects where each object contains EMP_ID,EMP_NAME,EMP_COMPANY,EMP_SALARY,EMP_ADDRESS?
+   where EMP address further contains an object which includes two properties such as EMP_CITY,EMP_AREA?
+   Display all this employee data's on the ui in the form of table through javascript?
